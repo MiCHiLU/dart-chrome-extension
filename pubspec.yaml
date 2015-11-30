@@ -1,0 +1,8 @@
+name: dart-chrome-extension
+description: A sample Dart Chrome Extension
+dependencies:
+  chrome: any
+transformers:
+- chrome
+- $dart2js:
+    csp: true

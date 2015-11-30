@@ -1,0 +1,17 @@
+# https://developer.chrome.com/extensions/manifest
+
+manifest_version: 2
+name: dart-chrome-extension
+version: ""
+
+description: A sample Dart Chrome Extension
+icons:
+  128: dart-logo-128.png
+
+page_action:
+  default_icon:
+    128: dart-logo-128.png
+  default_title: A sample Dart Chrome Extension
+background:
+  scripts:
+  - main.dart.js

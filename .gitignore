@@ -1,0 +1,13 @@
+.packages
+/build
+/pubspec.lock
+/web/version
+packages
+tags
+
+syntax: glob
+
+*.dart.js
+*.js.map
+
+syntax: regexp
